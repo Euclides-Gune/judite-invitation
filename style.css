@@ -18,7 +18,7 @@
 }
 
 body {
-    background-image: url('./assets/pexels-evie-shaffer-1259279-2395249\ \(1\).jpg');
+    background-image: url('./assets/pexels-evie-shaffer-1259279-2395249-gimp.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -140,6 +140,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+    body {
+        background-image: url('./assets/pexels-evie-shaffer-1259279-2395249-gimp-responsive.jpg');
+    }
 
     .gift-list {
         flex-direction: column;
