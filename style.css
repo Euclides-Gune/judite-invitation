@@ -143,6 +143,8 @@ body {
 
     body {
         background-image: url('./assets/pexels-evie-shaffer-1259279-2395249-gimp-responsive.jpg');
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     .gift-list {
