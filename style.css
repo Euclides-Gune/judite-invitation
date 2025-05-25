@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(251, 130, 199);
+    /* background-color: rgb(251, 130, 199); */
+
+}
+
+body {
+    background-image: url('./assets/pexels-evie-shaffer-1259279-2395249.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.dancing-script-title {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+  
+
+.title {
+    margin: 50px auto;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+.title img {
+    width: 150px;
+}
+
+.title h1 {
+    /* border :1px solid red; */
+    font-family: 40px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.gifts-title {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+
+.gift-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.gift {
+    width: 45%;
+    height: 500px;
+    margin: 20px 0px;
+    background-color: white;
+}
+
+.image img {
+    width: 100%;
+    height: 350px;
+}
+
+.gift-description {
+    height: 100px;
+}
+
+.gift-description ul {
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+}
+
+.gift-description h4 {
+    margin: 10px;
+    text-align: center;
+}
+
+.gift-description .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    width: 200px;
+    height: 40px; 
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(251, 130, 199);
+    color: white;
+    margin: auto;
+}
+
+.contacts {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contacts h4 {
+    margin: 10px;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+
+}
+
+.contacts ul {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.my-size {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .gift-list {
+        flex-direction: column;
+    }
+
+    .gift {
+        width: 100%;
+
+    }
+}
